@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"objVey",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Object4",
+  "eventList":[],
   "managed":true,
-  "name":"objVey",
+  "name":"Object4",
   "overriddenProperties":[],
   "parent":{
-    "name":"CharacterObj",
-    "path":"folders/Objects/CharacterObj.yy",
+    "name":"HousesObj",
+    "path":"folders/Objects/HousesObj.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_veyDown",
-    "path":"sprites/spr_veyDown/spr_veyDown.yy",
+    "name":"spr_veyHouse",
+    "path":"sprites/spr_veyHouse/spr_veyHouse.yy",
   },
   "spriteMaskId":null,
   "visible":true,

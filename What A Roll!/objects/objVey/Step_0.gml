@@ -50,3 +50,13 @@ if (xspd == 0 && yspd == 0) {
     // Resume animation
     image_speed = 1; // Adjust animation speed as desired
 }
+
+// obj_player Step Event
+
+// Check if player is colliding with obj_somone
+if (place_meeting(x, y, obj_somone)) {
+    is_near_somone = true;
+}
+else {
+    is_near_somone = false;
+}
