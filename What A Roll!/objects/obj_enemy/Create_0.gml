@@ -1,3 +1,3 @@
 // obj_enemy Create Event
 hp = 80; // Enemy health
-attack_mod = 3; // Enemy attack modifier
+attack_damage = 10; // Fixed damage the enemy deals each attack

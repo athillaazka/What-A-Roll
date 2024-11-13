@@ -16,15 +16,15 @@ switch (battle_state) {
             // Calculate damage
             var damage = scr_calculate_damage(total_attack);
 
-            // Check for critical hit or miss
+            // Check for critical hit or miss and adjust damage accordingly
             if (player_roll == player_dice) {
                 damage *= 2; // Critical hit: double damage
-                show_message("Critical Hit! You dealt " + string(damage) + " damage.");
+                show_message("Critical Hit! You rolled a " + string(player_roll) + " and dealt " + string(damage) + " damage.");
             } else if (player_roll == 1) {
                 damage = 0; // Critical miss: no damage
-                show_message("Critical Miss! You dealt no damage.");
+                show_message("Critical Miss! You rolled a " + string(player_roll) + " and dealt no damage.");
             } else {
-                show_message("You dealt " + string(damage) + " damage.");
+                show_message("You rolled a " + string(player_roll) + "! You dealt " + string(damage) + " damage.");
             }
 
             // Apply damage to enemy
@@ -41,28 +41,15 @@ switch (battle_state) {
         break;
 
     case "enemy_turn":
-        // Enemy's turn to attack
-        var enemy_dice = 20; // d20
-        var enemy_roll = scr_dice_roll(enemy_dice);
-        var total_attack = enemy_roll + enemy_attack_mod;
+        // Enemy's turn to attack with fixed damage
+        var damage = enemy_attack_damage; // Fixed damage from enemy object
 
-        // Store the roll result for HUD display
-        global.last_roll = enemy_roll;
-        global.last_attack_value = total_attack;
+        // Store the damage for HUD display
+        global.last_roll = 0; // No roll for enemy
+        global.last_attack_value = damage;
 
-        // Calculate damage
-        var damage = scr_calculate_damage(total_attack);
-
-        // Check for critical hit or miss
-        if (enemy_roll == enemy_dice) {
-            damage *= 2; // Critical hit: double damage
-            show_message("Enemy Critical Hit! You took " + string(damage) + " damage.");
-        } else if (enemy_roll == 1) {
-            damage = 0; // Critical miss: no damage
-            show_message("Enemy Critical Miss! You took no damage.");
-        } else {
-            show_message("Enemy dealt " + string(damage) + " damage to you.");
-        }
+        // Display attack message
+        show_message("Enemy attacks and deals " + string(damage) + " damage to you.");
 
         // Apply damage to player
         player_hp -= damage;
@@ -78,17 +65,14 @@ switch (battle_state) {
 
     case "battle_end":
         // Update player's HP in the player object
-        with (player) {
-            hp = obj_battle_controller.player_hp;
+        with (objVey) { // Direct reference to player object
+            hp = player_hp;
         }
 
         // Display battle result
         if (battle_result == "victory") {
             show_message("You defeated the enemy!");
-            // Destroy the enemy instance in the game room
-            with (enemy) {
-                instance_destroy();
-            }
+            // No need to destroy the enemy instance, as it was handled during battle initiation
         } else if (battle_result == "defeat") {
             show_message("You were defeated!");
             // Handle player defeat (e.g., restart game or go to game over screen)

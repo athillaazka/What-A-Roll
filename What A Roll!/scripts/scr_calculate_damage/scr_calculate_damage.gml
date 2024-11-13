@@ -1,9 +1,9 @@
 /// scr_calculate_damage(attack_value)
-/// @param attack_value The total attack value (dice roll + modifiers)
-/// @return The calculated damage based on the attack value
+/// @param attack_value Total attack value (dice roll + modifiers)
+/// @return Calculated damage (integer)
 
 function scr_calculate_damage(attack_value) {
-    // Basic formula: damage is attack value
-    // Modify this formula to include factors like enemy defense, resistances, etc.
-    return attack_value;
+    // Example damage formula: 50% of attack value
+    var damage = floor(attack_value * 0.5);
+    return max(1, damage); // Ensure at least 1 damage is dealt
 }

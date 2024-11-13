@@ -17,6 +17,4 @@ hp = 100;
 attack_mod = 5;
 
 // Interaction variables
-is_near_somone = false;
-dialog_active = false;
-dialog_current_line = 0;
+is_near_enemy = false;
