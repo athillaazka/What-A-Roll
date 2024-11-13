@@ -14,7 +14,7 @@ image_speed = 1; // Set initial animation speed
 
 // Player stats
 hp = 100;
-attack_mod = 5;
+attack_mod = 40;
 
 // Interaction variables
 is_near_enemy = false;
