@@ -1,12 +1,28 @@
+// objVey Step Event
+
 // Check keyboard inputs
-right_key = keyboard_check(vk_right);
-up_key = keyboard_check(vk_up);
-left_key = keyboard_check(vk_left);
-down_key = keyboard_check(vk_down);
+var right_key = keyboard_check(vk_right);
+var up_key = keyboard_check(vk_up);
+var left_key = keyboard_check(vk_left);
+var down_key = keyboard_check(vk_down);
+
+// Reset speed
+xspd = 0;
+yspd = 0;
 
 // Calculate speed based on input
-xspd = (right_key - left_key) * move_spd;
-yspd = (down_key - up_key) * move_spd;
+if (right_key) {
+    xspd += move_spd;
+}
+if (left_key) {
+    xspd -= move_spd;
+}
+if (down_key) {
+    yspd += move_spd;
+}
+if (up_key) {
+    yspd -= move_spd;
+}
 
 // Update position
 x += xspd;
@@ -51,12 +67,12 @@ if (xspd == 0 && yspd == 0) {
     image_speed = 1; // Adjust animation speed as desired
 }
 
-// obj_player Step Event
-
 // Check if player is colliding with obj_somone
 if (place_meeting(x, y, obj_somone)) {
     is_near_somone = true;
-}
-else {
+} else {
     is_near_somone = false;
 }
+
+// Optional: Display prompt to interact
+// This can be handled via obj_battle_hud or another HUD object
