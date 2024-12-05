@@ -43,7 +43,7 @@ The Narrative Choices and Consequences feature is designed to create a branching
 - Extract folder
 - Open executables file : Game.exe
 
-### Links
+## Links
 
 - Source Control :
 - Video Demonstration :
