@@ -2,22 +2,34 @@
 
 Collect the mysterious artifact to make a clean water in a post-apocalyptic adventure!
 
-The world has ended, but that was years ago. The people are rebuilding and you’re one of the people they send out onto the wasteland. Your goal is simple, secure a source of fresh water. Along the way you will need to fight off the threats of the wasteland and survive the harsh conditions. The enemies you face might be formidable but you’re not without your own weapons. 
+The world has ended, but that was years ago. The people are rebuilding and you’re one of the people they send out onto the wasteland. Your goal is simple, secure a source of fresh water. Along the way you will need to fight off the threats of the wasteland and survive the harsh conditions. The enemies you face might be formidable but you’re not without your own weapons.
 
 Your Journey doesn’t start at the beginning, in fact it is closer to the end. Now you’re facing the final trial, an ancient temple once belonging to the old people. Inside you will find your goal, but maybe also your DOOM…
 
 The game combines strategic turn-based combat with a unique dice-rolling mechanic, allowing players to influence outcomes through equipment and choices. Along the journey, players will encounter various characters, forge relationships, and make decisions that lead to multiple endings.
 
-
 ## Feature
+
 ### Dice Based Combat System
-The dice-based combat system in our game revolves around the use of virtual dice rolls to determine the outcome of various combat actions. Players will roll different types of dice (e.g., d6, d8, d20) depending on their character's attributes, weapons, and skills. The system incorporates concepts such as critical hits, misses, and modifiers to add depth and strategy to combat encounters. 
+
+The dice-based combat system in our game revolves around the use of virtual dice rolls to determine the outcome of various combat actions. Players will roll different types of dice (e.g., d6, d8, d20) depending on their character's attributes, weapons, and skills. The system incorporates concepts such as critical hits, misses, and modifiers to add depth and strategy to combat encounters.
+
 ### Equipment Progression
+
 The equipment progression system in our game is designed to provide players with a sense of growth and achievement as they advance through the game world. Players will start with basic equipment and gradually acquire more powerful gear through exploration, combat, and quest completion. As players progress, they'll be able to customize their gear through upgrades and modifications, allowing for personalized playstyles.
+
 ### Narrative Choices and Consequences
+
 The Narrative Choices and Consequences feature is designed to create a branching storyline where player decisions significantly impact the game world, character relationships, and overall narrative arc
 
 ## Installation
+
 - Download package release : [Version 1.1.0](https://github.com/athillaazka/What-A-Roll/releases/download/v.1.1.0/What-A-Roll-1.1.0.7z)
 - Extract folder
 - Open executables file : Game.exe
+
+### Links
+
+- Source Control :
+- Video Demonstration :
+- Game Design Document : [What A Roll - GDD](https://spotted-thrush-869.notion.site/Game-Design-Document-WhatARoll-12992e40b5d6803096d6deea32daa726)
