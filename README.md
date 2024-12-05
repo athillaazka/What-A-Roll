@@ -42,7 +42,7 @@ The Narrative Choices and Consequences feature is designed to create a branching
 
 - Download package release : [Version 1.1.0](https://github.com/athillaazka/What-A-Roll/releases/download/v.1.1.0/What-A-Roll-1.1.0.7z)
 - Extract folder
-- Open executables file : Game.exe
+- Open executables file from the extracted folder : Game.exe
 
 ## Links
 
