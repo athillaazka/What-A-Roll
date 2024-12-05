@@ -46,7 +46,7 @@ The Narrative Choices and Consequences feature is designed to create a branching
 ## Links
 
 - Source Control : [Google Drive](https://drive.google.com/drive/folders/1BXS09Pqfz0Y7AOeIlBFKRm4UsYnDLn3k?usp=sharing)
-- Video Demonstration :
+- Video Demonstration : [Youtube]
 - Game Design Document : [What A Roll - GDD](https://spotted-thrush-869.notion.site/Game-Design-Document-WhatARoll-12992e40b5d6803096d6deea32daa726)
 
 ## Notes
