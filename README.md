@@ -1,12 +1,16 @@
 # What A Roll
+Genre: Turn Based RPG <br />
+Engine: RPGMaker MZ <br />
+Version: 1.1.0 <br />
+Developer: Roll4Impact <br />
 
+## Table of Contents
+1. [Game Overview]
+2. [Feature]
+3. [Installation]
+4. [Links]
+   
 ## Game Overview
-
-Genre: Turn Based RPG
-Engine: RPGMaker MZ
-Version: 1.1.0
-Developer: Roll4Impact
-
 Collect the mysterious artifact to make a clean water in a post-apocalyptic adventure!
 
 The world has ended, but that was years ago. The people are rebuilding and you’re one of the people they send out onto the wasteland. Your goal is simple, secure a source of fresh water. Along the way you will need to fight off the threats of the wasteland and survive the harsh conditions. The enemies you face might be formidable but you’re not without your own weapons.
