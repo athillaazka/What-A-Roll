@@ -12,6 +12,7 @@ Developer: Roll4Impact <br />
 3. [Feature](https://github.com/athillaazka/What-A-Roll/blob/main/README.md#links)
 4. [Installation](https://github.com/athillaazka/What-A-Roll/blob/main/README.md#installation)
 5. [Links](https://github.com/athillaazka/What-A-Roll/blob/main/README.md#links)
+6. [Notes](https://github.com/athillaazka/What-A-Roll/blob/main/README.md#notes)
 
 ## Game Overview
 
