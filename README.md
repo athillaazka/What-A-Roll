@@ -48,3 +48,9 @@ The Narrative Choices and Consequences feature is designed to create a branching
 - Source Control :
 - Video Demonstration :
 - Game Design Document : [What A Roll - GDD](https://spotted-thrush-869.notion.site/Game-Design-Document-WhatARoll-12992e40b5d6803096d6deea32daa726)
+
+## Notes
+The game is in non-complete version. <br/>
+We don't use github as usual version control because RPGMaker MZ doesn't works well with github. There's over 1000 files on the project and it makes many merge conflict every changes we made <br/>
+Instead, we use Google Drive as mentioned in [Source Control](https://github.com/athillaazka/What-A-Roll/blob/main/README.md#links)
+
